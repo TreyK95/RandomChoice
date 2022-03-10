@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: blue;
-  font-family: "Rampart One", sans-serif;
+  background-color: #2b88f0;
+  font-family: "Muli", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +20,7 @@ h3 {
   color: #fff;
   margin: 10px 0 20px;
   text-align: center;
+  font-size: 35px;
 }
 
 .container {
@@ -34,7 +35,11 @@ textarea {
   font-family: inherit;
   padding: 10px;
   margin: 0 0 20px;
-  font-size: 16px;
+  font-size: 20px;
+}
+
+textarea:focus {
+  outline: none;
 }
 
 .tag {
